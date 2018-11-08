@@ -1,0 +1,69 @@
+html,body{width: 100% ;height: 100%;background: #f6f6f6;}
+.contentDetail{
+    background:#fff;
+    padding-bottom: 30px;
+}
+.contentTitle{
+    padding: 3%;
+    overflow: hidden;
+}
+.contentTitle .icon{
+    float:left;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-size: 90% !important;
+    margin-top: -3px;
+}
+.contentTitle .a{
+    background: url("../img/medal@2x.png") no-repeat;
+}
+.contentTitle .b {
+    margin-top: -6px;
+    height:35px;
+    background: url("../img/icon-xingdianzhi.png") no-repeat;
+}
+.contentTitle .c{
+    margin-top: -4px;
+    background: url("../img/icon-jibieyouxiaoqi.png") no-repeat;
+}
+.contentTitle .d{
+    background: url("../img/icon-weichiyouxiaoqi.png") no-repeat;
+}
+.contentTitle .e{
+    background: url("../img/icon-shengjiangji.png") no-repeat;
+}
+.contentTitle h3{
+    float: left;
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+table {
+
+    width: 86%;
+    margin: 0 auto;
+    border:1px solid #DABD90;
+    margin-bottom: 3%;
+}
+table th{
+    background: #FAF4E8;
+    text-align: center;
+    height: 36px;
+    color: #C8A069;
+}
+table td{
+    text-align: center;
+    font-size: 1.4rem;
+    height: 36px;
+}
+.contentP{
+
+    width: 86%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}

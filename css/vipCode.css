@@ -1,0 +1,82 @@
+
+html,body{width: 100% ;height: 100%;background: #f6f6f6;overflow: hidden;}
+.bg{width: 100%;  height:100%;}
+nav{height: 18%}
+.wrapper{
+    width: 72%;
+    height: 58%;
+    position: absolute;
+    top: 19.3333%;
+    left: 14.333333%;
+    z-index: 2;
+    background-color: #fff;
+    background: url("../img/Group%202@2x.png") no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+}
+/* ul{    margin: 11% 5%;} */
+ul li{float: left;}
+ul,ol{padding-left: 0}
+.star{
+    width: 100%;height: 20%;    width: 38%;
+    height: 16%;
+    position: absolute;
+    right: -1.666%;
+    top: -.63%;
+    margin: 0;  padding: 0;  border: 0;}
+.star span{
+    display: inline-block;
+    width: 100%;  height: 100%;
+    background: url(../img/icon-4xing.png) no-repeat;  background-size: 100% !important;}
+.people_nam span,.people_nam label{display: block;}
+.people_nam{
+    margin-top: 4%;
+    margin-left:  5%;
+}
+.people{   margin-left: 5%;
+    margin-top: 2%;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: url(../img/nv.png) no-repeat;
+    background-size: 100% 100%!important; }
+.input-group input{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px;    font-size: 1rem;}
+.input-group {
+    position: relative;
+    left: 36%;
+    top: .8rem;
+}
+.mask{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.40);
+    opacity: .79;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.people-for{
+    font-size: 1.4rem;
+    float: left;
+}
+.people-detail{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+}
+.pepple-time{
+
+    margin-top: 17px;
+    font-weight: 400;
+}
+.codeImg{
+    width: 57%;
+    /* height: 100px; */
+    margin: 0 auto;
+    display: inherit;
+}

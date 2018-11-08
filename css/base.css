@@ -1,0 +1,84 @@
+
+/**
+    公共类需要的自行加上
+    CSAMP PC 公共样式
+**/
+/*初始化样式 少的标签在项目中自行加上*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td ,select,option{ margin:0; padding:0; }
+ul, ol { list-style:none;margin: 0;  padding: 0;  border:0; }
+*:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {  font-size: 62.5%;  }
+body {  font-size: 1.6rem; /* =16px */ background-color: #f6f6f6; }
+body{
+    color:#333;
+    line-height:1.6rem;
+    font-family: "PingFangSC-Regular","Microsoft YaHei", "Helvetica, Arial", "Microsoft yahei"," sans-serif" ;
+}
+fieldset, img { border:0; }
+
+a {  text-decoration:none;  }
+a:link, a:visited { color: inherit;}
+a:hover { text-decoration:underline; }
+input[type=text],input[type=password],input[type=date],textarea{border:1px solid #ccc}
+button, input, optgroup, select, textarea { margin: 0; font: inherit; }
+button, select {text-transform: none;  }
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+input {  line-height: normal;  }
+img {  vertical-align: middle;  }
+.container{padding: 0;margin: 0}
+nav,header,article{width: 100%;padding:4% 0;position: relative; }
+nav{z-index: 3;background:#fff; }
+.nav_ span{display:block;float: left;}
+.nav_ span:nth-child(1){
+    width: 1.4rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    margin-left: 5%;
+    background: url(../img/ad_ctr1.png)no-repeat;
+    background-size: 90% 100%;}
+.nav_ span:nth-child(2){font-size: 1.85rem;  font-weight: 500;    padding-left: 26%;}
+.nav_ span:nth-child(3){     float: right;
+    margin-right: 2%;;}
+.mask{
+   display: none; width:100%;position: fixed;background:#000;opacity: .8;top:0;bottom:0;z-index:10 ;
+}
+.iphone{
+    display: none;    position: fixed;
+    background: #fff;
+    width: 80%;
+    height: 170px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40%;
+    margin-top: -85px;
+    z-index: 11;
+    border-radius: 10px;
+}
+.iphoneNum{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 100px;
+}
+.phoneAlert{
+    border-top: 1px solid #ccc;
+}
+.phoneAlert span{
+    display: inline-block;
+    width: 49%;
+    border-right: 1px solid #ccc;
+    height: 50px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.8rem;
+}
+.phoneAlert .current{
+    color:#45C473;
+    border-right:none;
+}
